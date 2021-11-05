@@ -28,7 +28,6 @@ function buyApparel(money, objItem, callback) {
   money = 150000
 
   setTimeout(function() {
-    // uang = uang - clothes.price
     console.log(`saya membawa uang sebesar Rp.${money}`)
     console.log(`saya ingin membeli Baju`)
     console.log(`dengan harga Rp.${clothes.price}`);
